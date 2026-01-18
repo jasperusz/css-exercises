@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+.yellowb,
+.blackb {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.yellowb {
+    color: black;
+    background-color: yellow;
+}
+
+.blackb {
+    color: white;
+    background-color: black;
+}

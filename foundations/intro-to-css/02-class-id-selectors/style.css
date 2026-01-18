@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+
+.odds {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: #ffc0cb;
+}
+
+.cooler {
+        font-size: 24px;
+}
+
+#idtwo {
+    font-size: 36px;
+    color: #0000ff;
+}
+
+#idfour {
+    font-size: 24px;
+    background-color: #90ee90;
+    font-weight: bold;
+}
