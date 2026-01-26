@@ -2,7 +2,11 @@ body {
   background: #eee;
   font-family: sans-serif;
 }
-
+div,
+h1 {
+  font-size: 16px;
+  padding: 8px;
+}
 .card {
   width: 400px;
   background: #fff;
@@ -13,15 +17,25 @@ body {
   background: #e3f4ff;
 }
 
-.content {
+div .content {
+  box-sizing: content-box;
   background: #e3f4ff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 8px; 
+  margin-top: 8px;
 }
 
 .button-container {
+  box-sizing: content-box;
   background: #e3f4ff;
+  text-align: center;
 }
 
-button {
+.button-container button {
+  box-sizing: content-box;
+  padding: 8px;
+  width: 113px;
   background: white;
   border: 1px solid #eee;
 }
