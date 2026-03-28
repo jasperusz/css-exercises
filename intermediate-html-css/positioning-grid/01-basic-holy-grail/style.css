@@ -5,10 +5,21 @@ html {
 }
 
 .container {
+  display: grid;
+  row-gap: 15px;
+  column-gap: 15px;
+  gap: 15px;
   text-align: center;
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  grid-template-areas:
+  "header header header"
+  "side nav nav"
+  "side content content"
+  "footer footer footer";
+  grid-template-rows: 100px 100px 500px 100px;
+  grid-template-columns: 300px 900px;
 }
 
 .container div {
@@ -21,22 +32,27 @@ html {
 }
 
 .header {
+  grid-area: header;
   background-color: #006157;
 }
 
 .sidebar {
+  grid-area: side;
   background-color: #005B94;
 }
 
 .nav {
+  grid-area: nav;
   background-color: #642cde;
 }
 
 .article {
+  grid-area: content;
   background-color: #7E1DC3;
 }
 
 .footer {
+  grid-area: footer;
   background-color: #393f4d;
 }
 
